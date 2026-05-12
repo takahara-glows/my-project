@@ -1,0 +1,78 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1920" height="180" viewBox="0 0 1920 180" role="img" aria-labelledby="title desc">
+  <title id="title">Gesture control guide bottom overlay comp</title>
+  <desc id="desc">A horizontal black bottom guide bar with white operation icons for webcam, pinch drag, mouse drag, cross reset, and stereo alignment.</desc>
+  <defs>
+    <style>
+      .bg { fill: #000; }
+      .divider { stroke: #fff; stroke-width: 1.5; opacity: .22; }
+      .icon { fill: none; stroke: #fff; stroke-width: 6; stroke-linecap: round; stroke-linejoin: round; }
+      .icon-thin { fill: none; stroke: #fff; stroke-width: 4; stroke-linecap: round; stroke-linejoin: round; }
+      .fill { fill: #fff; }
+      .label { fill: #fff; font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; font-size: 22px; font-weight: 700; letter-spacing: 0; }
+      .hint { fill: #fff; font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; font-size: 14px; font-weight: 500; letter-spacing: 0; }
+    </style>
+  </defs>
+
+  <rect class="bg" width="1920" height="180"/>
+
+  <g transform="translate(38 38)">
+    <rect class="icon" x="0" y="14" width="72" height="50" rx="12"/>
+    <path class="icon" d="M72 28l32-18v58L72 50"/>
+    <circle class="fill" cx="26" cy="39" r="7"/>
+    <path class="icon-thin" d="M8 82h88"/>
+    <text class="label" x="120" y="36">WebCam ON / OFF</text>
+    <text class="hint" x="120" y="64">hand tracking toggle</text>
+  </g>
+
+  <line class="divider" x1="398" y1="34" x2="398" y2="146"/>
+
+  <g transform="translate(448 30)">
+    <path class="icon" d="M56 92c-18-22-29-46-30-70 0-12 12-18 21-10 11 10 15 31 16 53"/>
+    <path class="icon" d="M76 92c12-28 14-55 8-75-4-13-21-15-28-4-8 13-8 35-2 59"/>
+    <circle class="icon-thin" cx="62" cy="86" r="18"/>
+    <path class="icon-thin" d="M104 42h28m-12-12 12 12-12 12"/>
+    <path class="icon-thin" d="M20 42h-28m12-12-12 12 12 12"/>
+    <path class="icon-thin" d="M62 118v-28"/>
+    <text class="label" x="146" y="38">Pinch + Drag</text>
+    <text class="hint" x="146" y="66">pinch fingers to move</text>
+  </g>
+
+  <line class="divider" x1="778" y1="34" x2="778" y2="146"/>
+
+  <g transform="translate(830 34)">
+    <rect class="icon" x="0" y="0" width="74" height="92" rx="28"/>
+    <path class="icon" d="M37 0v34"/>
+    <path class="icon-thin" d="M98 46h34m-14-14 14 14-14 14"/>
+    <path class="icon-thin" d="M-24 46h-34m14-14-14 14 14 14"/>
+    <path class="icon-thin" d="M37 112v-38m-15 15 15-15 15 15"/>
+    <text class="label" x="146" y="38">Mouse Drag</text>
+    <text class="hint" x="146" y="66">hold left click</text>
+  </g>
+
+  <line class="divider" x1="1158" y1="34" x2="1158" y2="146"/>
+
+  <g transform="translate(1210 26)">
+    <circle class="fill" cx="22" cy="22" r="8"/>
+    <circle class="fill" cx="118" cy="22" r="8"/>
+    <path class="icon" d="M22 22c28 30 54 64 82 106"/>
+    <path class="icon" d="M118 22c-28 30-54 64-82 106"/>
+    <path class="icon-thin" d="M42 56l56 56"/>
+    <path class="icon-thin" d="M98 56l-56 56"/>
+    <path class="icon-thin" d="M70 42v82"/>
+    <text class="label" x="148" y="46">Cross Reset</text>
+    <text class="hint" x="148" y="74">cross arms to zero</text>
+  </g>
+
+  <line class="divider" x1="1538" y1="34" x2="1538" y2="146"/>
+
+  <g transform="translate(1584 38)">
+    <circle class="fill" cx="18" cy="30" r="13"/>
+    <circle class="fill" cx="106" cy="30" r="13"/>
+    <path class="icon-thin" d="M18 30h88"/>
+    <path class="icon" d="M0 82h124"/>
+    <path class="icon" d="M62 56v52"/>
+    <path class="icon-thin" d="M42 88l20 20 20-20"/>
+    <text class="label" x="144" y="38">Stereo Guide</text>
+    <text class="hint" x="144" y="66">align white dots</text>
+  </g>
+</svg>
